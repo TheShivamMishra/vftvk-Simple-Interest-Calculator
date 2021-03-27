@@ -1,4 +1,38 @@
-body {background-color:tan;}
-h1{color:green;}
+*{
+    padding:0;
+    margin:0;
+}
 
+body {
+    background-color:black;
+}
+
+div{
+    background-color: white;
+    margin: 20px 15%;
+    border-radius: 25px;
+    padding:20px;
+}
+
+h1{
+    text-align: center;
+    color:grey;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    margin: 10px;
+}
+
+button{
+    margin:10px 5px 0px 0;
+    padding:8px;
+}
+
+footer{
+    font-size: 1.5rem;
+    color:black;
+    margin:15px 0 5px 0;
+}
 
