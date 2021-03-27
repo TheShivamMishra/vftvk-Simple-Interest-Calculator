@@ -10,10 +10,21 @@
         <h1>Simple Interest Calculator</h1>
 
         Amount <input type="number" id="principal" value="0"> <br />
-        Rate <input type="range" id="rate" oninput="this.nextElementSibling.value = this.value" step="0.5" min="1" max="100" value="1"><output>0</output>%<br>
-        No. of Years <input type="number" value = "0" id="years" step="0.5" min="1" max="100" ><br />
-        Interest : <span id="result"></span><br>
-
+        Rate <input type="range" id="rate" oninput="this.nextElementSibling.value = this.value" step="0.5" min="1"
+            max="100" value="1"><output>0</output>%<br><br>
+        No. of Years : <select id="years" value="1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select><br><br>
+            Interest : <span id="result" padding="5px" ></span><br><br>
         <button onclick="compute()">Compute Interset</button>
         <footer>
             &copy; Everyone Can Get Rich!
